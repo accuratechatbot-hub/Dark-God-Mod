@@ -1,0 +1,15 @@
+{
+  "key.categories.darkgod": "Dark God",
+  "key.darkgod.beam": "Omega Beams",
+  "key.darkgod.gravity": "Gravity Crush",
+  "key.darkgod.boomtube": "Boom Tube",
+  "key.darkgod.snap": "The Snap",
+  "key.darkgod.aura": "Toggle Dark Aura",
+  "tooltip.darkgod.eat": "Sneak + hold Right-click to devour",
+  "tooltip.darkgod.eat2": "Power beyond mortal comprehension...",
+  "message.darkgod.awaken": "%s has devoured the Command Block. The Dark God awakens.",
+  "title.darkgod.main": "THE DARK GOD AWAKENS",
+  "title.darkgod.sub": "Darkness is the answer.",
+  "message.darkgod.cooldown": "%s ready in %ss",
+  "message.darkgod.notgod": "You are not yet a god."
+}

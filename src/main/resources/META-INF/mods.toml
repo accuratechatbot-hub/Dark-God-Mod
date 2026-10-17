@@ -1,0 +1,37 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "darkgod"
+version = "1.0.0"
+displayName = "Dark God"
+authors = "You"
+description = '''
+Devour a Command Block and ascend as a Dark God - a Darkseid / Thanos style
+power fantasy with Omega Beams, Gravity Crush, Boom Tubes, the Snap and a
+corrupting Dark Aura. Integrates with Godhood Core when it is installed.
+'''
+
+[[dependencies.darkgod]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.darkgod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
+
+# Optional: Godhood Core (viltrumitecore). If present, Dark Gods also get its
+# powers (flight, punch, dash...) and its damage-reduction stats.
+[[dependencies.darkgod]]
+modId = "viltrumitecore"
+mandatory = false
+versionRange = "[1.10,)"
+ordering = "AFTER"
+side = "BOTH"
